@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/goro/RRTStar_ws/src/RRTSTAR/Include/RRTstar.h
+World.h
+/home/goro/RRTStar_ws/src/RRTSTAR/Include/World.h
+random
+-
+
+/home/goro/RRTStar_ws/src/RRTSTAR/Include/World.h
+iostream
+-
+vector
+-
+algorithm
+-
+fstream
+-
+float.h
+-
+
+/home/goro/RRTStar_ws/src/RRTSTAR/src/Main.cpp
+RRTstar.h
+/home/goro/RRTStar_ws/src/RRTSTAR/src/RRTstar.h
+
